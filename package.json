@@ -2,7 +2,7 @@
 	"name": "astra-exchange",
 	"version": "1.0.0",
 	"description": "Astra Exchange",
-	"main": "dist/main.js",
+	"main": "lib/main.js",
 	"scripts": {
 		"start": "tsc && electron ."
 	},
