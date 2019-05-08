@@ -12,7 +12,7 @@ function createWindow() {
 app.on('ready', createWindow)
 
 app.on('window-all-closed', () =>
-	process.platform === 'darwin' ? app.quit() : null
+	process.platform === 'darwin' ? null : app.quit()
 )
 
 app.on('activate', () =>
